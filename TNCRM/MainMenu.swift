@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
-class ViewController: UIViewController {
-
+class MainMenu: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    @IBAction func unwindToMainMenu(_ sender: UIStoryboardSegue) {}
+    
 }
 
