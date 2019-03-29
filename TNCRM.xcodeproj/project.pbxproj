@@ -16,6 +16,7 @@
 		94222E7C224CB83C007A1A56 /* CustomerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94222E7B224CB83C007A1A56 /* CustomerTableViewController.swift */; };
 		94553388224D17BD002215B5 /* CustomerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94553387224D17BC002215B5 /* CustomerDetail.swift */; };
 		94BC86F2224CA676006AFAC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94BC86F1224CA676006AFAC7 /* GoogleService-Info.plist */; };
+		94FAD7A8224E0FF10064C826 /* CustomerBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FAD7A7224E0FF10064C826 /* CustomerBlock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		94222E7B224CB83C007A1A56 /* CustomerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewController.swift; sourceTree = "<group>"; };
 		94553387224D17BC002215B5 /* CustomerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetail.swift; sourceTree = "<group>"; };
 		94BC86F1224CA676006AFAC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94FAD7A7224E0FF10064C826 /* CustomerBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerBlock.swift; sourceTree = "<group>"; };
 		9C879A777B605BEDBE2DD504 /* Pods-TNCRM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNCRM.release.xcconfig"; path = "Target Support Files/Pods-TNCRM/Pods-TNCRM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 				94BC86F1224CA676006AFAC7 /* GoogleService-Info.plist */,
 				94222E7B224CB83C007A1A56 /* CustomerTableViewController.swift */,
 				94553387224D17BC002215B5 /* CustomerDetail.swift */,
+				94FAD7A7224E0FF10064C826 /* CustomerBlock.swift */,
 			);
 			path = TNCRM;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				9419ECC1224737B000871870 /* MainMenu.swift in Sources */,
 				9419ECBF224737B000871870 /* AppDelegate.swift in Sources */,
 				94222E7C224CB83C007A1A56 /* CustomerTableViewController.swift in Sources */,
+				94FAD7A8224E0FF10064C826 /* CustomerBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
