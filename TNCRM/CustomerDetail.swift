@@ -10,11 +10,14 @@ import UIKit
 
 class CustomerDetailViewController: UIViewController {
     
+    @IBOutlet weak var serviceLabel: UILabel!
     var customerName = String()
+    var serviceName = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = customerName
+        serviceLabel.text = serviceName
     }
     
 }

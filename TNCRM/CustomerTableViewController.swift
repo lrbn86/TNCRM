@@ -27,13 +27,27 @@ class CustomerTableViewController: UITableViewController {
 //        }
 //
         ref.observe(.childAdded) { (snapshot) in
+            print("Just added!")
             let snapshotValue = snapshot.value as! NSDictionary
             let customerName = snapshotValue["Name"]
-            //            let serviceName = snapshotValue["Service"]
+//            let serviceName = snapshotValue["Service"]
+            // TODO Maybe make a customerObject to pass two data...
             self.customersArray.append(customerName as! String)
             self.tableView.reloadData()
             
         }
+        
+        ref.observe(.childRemoved) { (snapshot) in
+            print("Just removed!")
+            let snapshotValue = snapshot.value as! NSDictionary
+            let customerName = snapshotValue["Name"]
+            let serviceName = snapshotValue["Service"]
+            let index = self.customersArray.firstIndex(of: customerName as! String)
+            self.customersArray.remove(at: index!)
+            self.tableView.reloadData()
+            print("\(customerName):\(serviceName) removed!")
+        }
+        
     }
 
     
